@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version     = Korbit::Client::VERSION
   s.authors     = ["Peatio Opensource"]
   s.email       = ["community@peatio.com"]
-  s.homepage    = "https://github.com/peatio/korbit"
+  s.homepage    = "https://github.com/dasixi/korbit"
   s.summary     = "A ruby client to access Korbit's API."
   s.description = "A ruby client which can access all Korbit's API."
   s.license     = 'MIT'
