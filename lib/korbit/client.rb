@@ -36,6 +36,8 @@ module Korbit
 
     def parse(response)
       JSON.parse response.body
+    rescue JSON::ParserError => e
+      raise BitBot::UnauthorizedError, response['warning']
     end
 
     def initialize_token(options)
