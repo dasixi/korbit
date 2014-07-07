@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   #s.executables = ['pcurl']
-  s.files       = Dir["{bin,lib}/**/*"] + ["README.markdown"]
+  s.files       = Dir["{bin,lib}/**/*"] + ["README.md"]
 
   s.add_runtime_dependency('activesupport')
 end
